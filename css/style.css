@@ -73,11 +73,29 @@ border-radius:50%;
 
 object-fit:cover;
 
-border:5px solid #D8B45C;
+/* border:5px solid #D8B45C; */
 
 margin-bottom:25px;
 
+/* Fondo dorado */
+background: linear-gradient(
+    135deg,
+    #D8B45C,
+    #D8B45C,
+    #f3c957
+);
+
+/* Para poder mover la imagen */
+    position: relative;
+
+    /* Sombra */
+    box-shadow: 0 0 15px rgba(216, 180, 92, 0.5);
+    
+ /* Baja la imagen */
+    object-position: center 5%;
+
 }
+
 
 h1{
 
